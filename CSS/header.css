@@ -3,3 +3,8 @@
     height: 100vh;
     background-size: cover;
 }
+
+/* Header h1 text */
+.display-4 {
+    font-size: 80px;
+}

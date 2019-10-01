@@ -9,16 +9,131 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- LOCAL CSS FILES -->
     <link rel='stylesheet' type='text/css' href='../Portfolio/CSS/main.css'>
+    <!-- GOOGLE FONTS LINK -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
     <title>Elijah Smith Portfolio</title>
 </head>
 <body>
+  <main id='wrapper' class='wrapper'>
+
+    <!-- NAVBAR -->
+    <div class='navbarContainer' id='navbarContainer'>
+      <nav class='navbar' id='navbar'>
+        <a class='navLink about' href='#aboutMeContainer'>About Me</a>
+        <a class='navLink projects' href='#projectsContainer'>Projects</a>
+        <a class='navLink contact' href='#contact'>Contact</a>
+      </nav>
+    </div>
+
+ 
     <!-- JUMBOTRON -->
-    <div class="jumbotron jumbotron-fluid">
-            <div class="container">
+    <div class='jumbotronContainer'>
+      <div class="jumbotron jumbotron-fluid">
+          <div class="container">
               <h1 class="display-4">Elijah Smith</h1>
               <p class="lead">Junior Web Developer</p>
+          </div>
+        </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <section id='aboutMeContainer'>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-5">
+                <h1>About Me</h1>
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, voluptatibus quis. Quam cumque veniam asperiores, animi omnis eum est nam nostrum in, consequuntur similique, quibusdam totam optio iste dicta nihil.</span></p>
+              </div>
+
+              <div class="col-sm-2">
+                <!-- EMPTY DIV FOR SPACING -->
+              </div>
+
+              <div class="col-sm-5">
+                <img clas='col-sm-5' src='./Assets/Header-Photo.jpg' style='width: 400px;'>
+              </div>
             </div>
           </div>
+      </section>
+
+    <!-- PROJECTS -->
+    <section id='projectsContainer'>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-5">
+                <img clas='col-sm-5' src='./Assets/Header-Photo.jpg' style='width: 400px;'>
+              </div>
+
+              <div class="col-sm-2">
+                <!-- EMPTY DIV FOR SPACING -->
+              </div>
+
+              <div class="col-sm-5">
+                <h1>Projects</h1>
+                <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quae illum a labore quaerat nesciunt perferendis unde corrupti modi facere debitis repellat, in incidunt hic libero optio! Laborum, iusto doloremque.</span></p>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!--CONTACT-->
+      <section id="contact">
+          <div class="container">
+              <br>
+              <br>
+              <h2 class="text-center text-uppercase">Contact Me</h2>
+              <div class="row">
+                  <div class="col-12">
+                      <form action="https://formspree.io/elijah.a.smith.es@gmail.com" method="POST">
+                          <div class="control-group">
+                              <div class="form-group">
+                                  <label>Name</label>
+                                  <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                      data-validation-required-message="Please enter your name" name="name">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                          </div>
+                          <div class="control-group">
+                              <div class="form-group">
+                                  <label>Email Address</label>
+                                  <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                      data-validation-required-message="Please enter your email" name="_replyto">
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                          </div>
+                          <div class="control-group">
+                              <div class="form-group">
+                                  <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                      data-validation-required-message="Please leave a message" name="message"></textarea>
+                                  <p class="help-block text-danger"></p>
+                              </div>
+                          </div>
+                          <div class="text-center">
+                              <div id="success"></div>
+                              <button type="submit" class="btn btn-lg btn-black">
+                                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                  Send Message
+                              </button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- FOOTER -->
+      <section class='footer'>
+        <div class='footerContainer' id='footerContainer'>
+          <footer>
+            <a href='#contact' class='footerLink'>Contact</a>
+            <a href='#navbarContainer' class='footerLink'>Return to Top</a>
+          </footer>
+        </div>
+      </section>
+    
+  </main>
+    
+  
 
 
 
