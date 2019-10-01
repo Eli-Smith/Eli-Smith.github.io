@@ -1,0 +1,5 @@
+.jumbotron {
+    background: url(../Assets/Header-Photo.jpg) center bottom;
+    height: 100vh;
+    background-size: cover;
+}
