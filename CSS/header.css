@@ -7,4 +7,9 @@
 /* Header h1 text */
 .display-4 {
     font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lead{
+    font-family: 'Inconsolata', serif;
 }

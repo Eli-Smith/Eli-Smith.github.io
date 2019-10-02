@@ -1,4 +1,11 @@
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+    background-color: #CABFAE  
+}
+
+.footerLink {
+    margin: 1em;
 }

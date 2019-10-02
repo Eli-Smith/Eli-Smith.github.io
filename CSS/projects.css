@@ -1,0 +1,39 @@
+#projectsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+    padding-right: 23%;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
+    
+    height: auto;
+    /* margin-right: 18%; */
+
+    border-top: 2px solid var(--overcast);
+}
+
+.projectImg {
+    height: 200px;
+    width: 300px;
+    margin: 1em;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.textBlock {
+    position: absolute;
+    bottom: 1em;
+    left: 2em;
+
+    background-color: rgba(169, 169, 169, 0.7);
+
+    text-align: center;
+}
