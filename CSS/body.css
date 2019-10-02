@@ -1,5 +1,5 @@
 body {
-    background-color: var(--paper);
+    background-image: linear-gradient(to bottom right, var(--paper), var(--overcast));
 }
 
 a {
@@ -19,5 +19,5 @@ h1, h2 {
 
 p {
     font-family: 'Inconsolata', serif;
-    font-size: 18px;
+    font-size: 18px
 }

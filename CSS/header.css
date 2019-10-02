@@ -2,6 +2,8 @@
     background: url('../Assets/Succulent_Photo.jpeg') center bottom;
     height: 100vh;
     background-size: cover;
+
+    text-align: center;
 }
 
 /* Header h1 text */

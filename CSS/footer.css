@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 1.5em;
     background-color: #CABFAE  
@@ -8,4 +8,8 @@ footer {
 
 .footerLink {
     margin: 1em;
+}
+
+.rtt {
+    margin-left: 18em;
 }

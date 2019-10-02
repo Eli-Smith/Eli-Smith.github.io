@@ -28,12 +28,16 @@
     position: relative;
 }
 
+
+.projectText {
+    padding-right: 5em;
+}
 .textBlock {
     position: absolute;
     bottom: 1em;
     left: 2em;
 
-    background-color: rgba(169, 169, 169, 0.7);
+    background-color: rgba(213, 213, 213, 0.7);
 
     text-align: center;
 }

@@ -11,3 +11,12 @@
 #carouselExampleControls {
     margin-left: 3em;
 }
+ 
+.carousel-item {
+    height: auto;
+    overflow: hidden;
+    width: 400px;
+    }
+    .carousel-item img {
+    width: 400px;
+    }  
