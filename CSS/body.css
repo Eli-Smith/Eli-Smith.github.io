@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom right, var(--paper), var(--overcast));
+    background-image: linear-gradient(to bottom right, var(--paper), var(--overcast), var(--lavender), var(--dusty));
 }
 
 a {
