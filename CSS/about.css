@@ -19,4 +19,8 @@
     }
     .carousel-item img {
     width: 460px;
-    }  
+    } 
+    
+.aboutMeWrapper {
+    border-bottom: 2px solid var(--lavender);
+}
